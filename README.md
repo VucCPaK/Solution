@@ -8,6 +8,7 @@ analytical tool to evaluate these data.
 ## Input
 The company provides 10 different services, each with 3 variations. Questions are divided into
 10 types, each can belong to 20 categories, a category can have 5 subcategories.
+
 First line contains count S (<= 100.000) of all lines.
 Every line starts with character C (waiting timeline) or D (query).
 ### Waiting timeline:
