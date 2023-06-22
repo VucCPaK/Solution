@@ -54,19 +54,18 @@ It prints out “-” if the output is not defined.
 #### -
 
 ### Explanation:
-
 #### 1.query ( D 1.1 8 P 01.01.2012-01.12.2012 ) at line 5:
 #### Valid only for 1.data line, because others have different question type. 
 #### 1.data line has question type 8.15.1 which matches the query of question type 8. 
 #### Result: 83.
-####
+
 #### 2.query ( D 1 * P 8.10.2012-20.11.2012 ) at line 7:
 #### Valid only for 1.data line and 3.data line.
 #### 2.data line doesn’t match the date filter.
 #### 4.data line has a different response type (D).
 #### 5.data line doesn’t match service, response type, and data filter.
 #### Result: (83+117)/2=100.
-####
+
 #### 3.query ( D 3 10 P 01.12.2012 ) at line 8:
 #### Doesn’t match any data line.
 #### Result: “-”.
